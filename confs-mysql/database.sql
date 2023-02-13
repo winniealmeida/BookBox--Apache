@@ -1,13 +1,13 @@
 CREATE TABLE categorias
 (
-  id_categoria INT NOT NULL,
+  id_categoria INT NOT NULL AUTO_INCREMENT,
   nome_categoria VARCHAR(255) NOT NULL,
   PRIMARY KEY (id_categoria)
 );
 
 CREATE TABLE livros
 (
-  id_livro INT NOT NULL,
+  id_livro INT NOT NULL AUTO_INCREMENT,
   nome_livro VARCHAR(45) NOT NULL,
   editora_livro VARCHAR(255) NOT NULL,
   autor_livro VARCHAR(255) NOT NULL,
